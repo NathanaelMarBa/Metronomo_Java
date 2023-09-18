@@ -15,7 +15,6 @@ public class Hilo extends Thread{
         System.out.println("Cuantos BPM deseas?");
         bpm = sc.nextInt();
         m.segundero(bpm);
+        System.out.println(m.i);
     }
-
-
 }
